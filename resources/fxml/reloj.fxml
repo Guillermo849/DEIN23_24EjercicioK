@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="462.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.RelojController">
+   <children>
+      <ImageView fitHeight="411.0" fitWidth="466.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/fondoReloj.png" />
+         </image>
+      </ImageView>
+      <HBox alignment="CENTER" prefHeight="429.0" prefWidth="462.0">
+         <children>
+            <ImageView fx:id="imgHDec" fitHeight="82.0" fitWidth="65.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/ZERO.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="imgHCen" fitHeight="82.0" fitWidth="65.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/ZERO.png" />
+               </image>
+            </ImageView>
+            <VBox alignment="CENTER" prefHeight="360.0" prefWidth="26.0">
+               <children>
+                  <ImageView fitHeight="21.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/rojo.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="21.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/rojo.jpg" />
+                     </image>
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin>
+                  </ImageView>
+               </children>
+            </VBox>
+            <ImageView fx:id="imgMinDec" fitHeight="82.0" fitWidth="65.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/ZERO.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="imgMinCen" fitHeight="82.0" fitWidth="65.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/ZERO.png" />
+               </image>
+            </ImageView>
+            <VBox alignment="CENTER" prefHeight="360.0" prefWidth="26.0">
+               <children>
+                  <ImageView fitHeight="21.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/rojo.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="21.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/rojo.jpg" />
+                     </image>
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin>
+                  </ImageView>
+               </children>
+            </VBox>
+            <ImageView fx:id="imgSegDec" fitHeight="82.0" fitWidth="65.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/ZERO.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="imgSegCen" fitHeight="82.0" fitWidth="65.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/ZERO.png" />
+               </image>
+            </ImageView>
+         </children>
+         <padding>
+            <Insets top="40.0" />
+         </padding>
+      </HBox>
+   </children>
+</StackPane>
